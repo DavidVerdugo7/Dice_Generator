@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Body styles */
+.bodycolor {
+  background-color: #dcd751a5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Heading styles */
+.h1style {
+  color: #007bff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.h2style {
+  color: #3a62c6;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for the dice */
+
+/* Añadir una sombra al contenedor */
+.dice {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector styles */
+.sidesnumber {
+  text-align: center;
+}
+
+/* Button styles */
+.rollit {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.rollit:hover {
+  background-color: #0056b3;
+}
+
+.rollit {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiar el color del botón al pasar el cursor por encima */
+.rollit:hover {
+  background-color: #0056b3;
+}
