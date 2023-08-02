@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice Generator</title>
-    <link rel="stylesheet" href="/Dice_Generator/style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body class="bodycolor">
     <section>
@@ -14,7 +14,7 @@
     </section>
 
     <section class="sidesnumber">
-      <div class="dice" id="dice">
+      <div class="dice">
         <label>Number of sides: </label>
         <select id="dicesides" name="dicesides">
           <option>Select an option</option>
@@ -25,9 +25,10 @@
           <option>10</option>
         </select>
       </div>
+      <div id="diceface"></div>
 
       <button onclick="rolldices()" class="rollit">Roll it</button>
     </section>
-    <script src="/Dice_Generator/dice.js"></script>
+    <script src="/dice.js"></script>
   </body>
 </html>
